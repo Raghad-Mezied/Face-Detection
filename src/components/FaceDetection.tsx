@@ -106,7 +106,7 @@ export const Camera: React.FC = () => {
             onPlay={handleVideoPlay}
             className="w-full h-full"
           />
-          <canvas ref={canvasRef} className="absolute top-0 left-0" />
+          <canvas ref={canvasRef} className="absolute left-0" />
           <button
             onClick={takeSelfie}
             className={`absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white py-2 px-4 rounded ${
